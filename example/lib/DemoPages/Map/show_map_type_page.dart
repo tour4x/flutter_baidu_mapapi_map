@@ -78,7 +78,7 @@ class _ShowMapTypePageState extends BMFBaseMapState<ShowMapTypePage> {
         }
         if(mapStatus.coordinateBounds?.southwest != null){
           BMFMarker swMarker = BMFMarker.icon(
-              icon: 'resoures/start.png',
+              icon: 'resources/start.png',
               position: mapStatus.coordinateBounds!.southwest,
               enabled: false,
               displayPriority: BMFMarkerDisplayPriority.Middle - 2,
@@ -94,7 +94,7 @@ class _ShowMapTypePageState extends BMFBaseMapState<ShowMapTypePage> {
         }
         if(mapStatus.coordinateBounds?.northeast != null){
           BMFMarker neMarker = BMFMarker.icon(
-              icon: 'resoures/end.png',
+              icon: 'resources/end.png',
               position: mapStatus.coordinateBounds!.northeast,
               enabled: false,
               displayPriority: BMFMarkerDisplayPriority.Middle - 2,
