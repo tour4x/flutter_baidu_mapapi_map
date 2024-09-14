@@ -1,0 +1,15 @@
+{
+  "name": "flutter_baidu_mapapi_map",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "index.ets",
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@ohos/flutter_ohos": "file:./har/flutter.har",
+    "@bdmap/base": "^1.0.0",
+    "@bdmap/search": "^1.0.0",
+    "@bdmap/map": "^1.0.0"
+  },
+  "modelVersion": "5.0.0"
+}

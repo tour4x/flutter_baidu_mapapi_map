@@ -1,0 +1,21 @@
+{
+  "modelVersion": "5.0.0",
+  "name": "flutter_baidu_mapapi_map_example",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "@ohos/flutter_ohos": "file:./har/flutter.har"
+  },
+  "devDependencies": {
+    "@ohos/hypium": "1.0.6"
+  },
+  "overrides": {
+    "@ohos/flutter_ohos": "file:./har/flutter.har",
+    "flutter_baidu_mapapi_base": "file:./har/flutter_baidu_mapapi_base.har",
+    "flutter_baidu_mapapi_map": "file:./har/flutter_baidu_mapapi_map.har",
+    "@ohos/flutter_module": "file:./entry"
+  }
+}
